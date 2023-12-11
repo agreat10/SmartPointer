@@ -304,6 +304,7 @@ int main()
         ++count;
     }
     file.close();count /= 5;
+
     //cout << "Количество человек в базе -> " << count << endl;
     
     if (!count)
